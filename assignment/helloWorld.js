@@ -12,3 +12,7 @@ console.log(lastName);
 
 let fullName = firstName + " " + lastName;
 console.log(fullName);
+
+//firstName, lastName, and fullName are 
+//all strings (text).
+
