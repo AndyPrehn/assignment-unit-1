@@ -51,5 +51,22 @@ if (temperature <85 && !isRaining){
     console.log('Bring an umbrella');
 } else {
     console.log('Better to stay inside');
+} 
+
+// Adding to the existing temperature
+temperature = temperature +1;
+temperature += 1; //same as the previous line
+temperature ++; // Same as above but more confusing
+
+// This works with +, -, *, /
+
+temperature -= 2; // Subract 2 from temperature
+temperature *= 2;// Multiply temperature by 2
+console.log('It is now', temperature);
+   
+// === checks for equality
+// = will change the value AND always return true 
+if (temperature === 162) {
+    console.log('it is 162!');
 }
 
